@@ -6,8 +6,8 @@ def sol(scanning:list):
     return cont
 
 def getList(): # retorne una lista con todos los elementos de la entrada
-    with open("Ejercicio 1\ent2.txt") as f:
-        return [int(line.strip()) for line in f]
+    with open("Día 2\ent.txt") as archivo:
+        return [int(line.strip()) for line in archivo]
 
 #Print solution
 print(sol(getList()))
